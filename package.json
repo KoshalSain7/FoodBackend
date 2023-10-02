@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "engines": {
+        "node": ">=18 <19"
+    },
   "scripts": {
     "start": "nodemon src/server.js"
   },

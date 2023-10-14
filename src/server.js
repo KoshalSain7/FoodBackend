@@ -29,5 +29,5 @@ import orderRouter from './routers/order.router.js';
 app.use("/orders", orderRouter);
 
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running At port ${PORT}`);
 })
